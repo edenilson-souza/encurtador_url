@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "incremental": true,
+        "target": "ESNext",
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        // "emitDecoratorMetadata": true,
+        // "experimentalDecorators": true,
+        // "strictPropertyInitialization": false,
+        "strictNullChecks": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "types": ["node"]
+        // "lib": ["es2018", "esnext.asynciterable"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.json"],
+    "exclude": ["**/*.test.ts", "node_modules", "dist", "coverage"]
+}
